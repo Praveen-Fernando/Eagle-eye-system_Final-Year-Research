@@ -1,4 +1,4 @@
-# Eagle-eye-system_Final-Year-Research
+# Criminal investigation & management system based on criminal recognition using CCTV footage - EagleEye
 
 <p align="center">
     <img src="https://github.com/Jaypraveen/Eagle-eye-system_Final-Year-Research/blob/main/UI/Readme_Imgs/logo.png?raw=true" alt="logo" width="200"><br>
