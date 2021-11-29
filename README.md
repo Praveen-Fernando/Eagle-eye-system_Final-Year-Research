@@ -21,7 +21,7 @@ This research study is designed to detect and identify criminals in less time wi
 </p>
 
 <p align="center">
-    <img src="https://github.com/Jaypraveen/Eagle-eye-system_Final-Year-Research/blob/main/UI/Readme_Imgs/Capture-copy.jpg" alt="logo" width="80%">
+    <img src="https://github.com/Jaypraveen/Eagle-eye-system_Final-Year-Research/blob/main/UI/Readme_Imgs/Capture-copy.jpg" alt="logo" width="70%">
  </p>
 
 **Main Research questions**
@@ -36,7 +36,7 @@ Most of the time, the quality of the CCTV footage are low. Increasing the qualit
 To run the main scan of the system, first users need to upload the CCTV footage into the system.
 
 <p align="center">
-    <img src="https://github.com/Jaypraveen/Eagle-eye-system_Final-Year-Research/blob/main/UI/Readme_Imgs/upload.JPG?raw=true" alt="logo" width="80%">
+    <img src="https://github.com/Jaypraveen/Eagle-eye-system_Final-Year-Research/blob/main/UI/Readme_Imgs/upload.JPG?raw=true" alt="logo" width="70%">
  </p>
 
 
@@ -49,7 +49,7 @@ The enhancement feature will be the first step of the system. We use images to c
 </p>
 
 <p align="center">
-    <img src="https://github.com/Jaypraveen/Eagle-eye-system_Final-Year-Research/blob/main/UI/Readme_Imgs/1.JPG?raw=true" alt="logo" width="80%">
+    <img src="https://github.com/Jaypraveen/Eagle-eye-system_Final-Year-Research/blob/main/UI/Readme_Imgs/1.JPG?raw=true" alt="logo" width="70%">
  </p>
 
 <p align="justify"> 
@@ -59,7 +59,7 @@ Mainly, video footage is taken by the system as the input. When this process run
 As a additional feature users are able to run the image enhancement process separately as their need.
 
 <p align="center">
-    <img src="https://github.com/Jaypraveen/Eagle-eye-system_Final-Year-Research/blob/main/UI/Readme_Imgs/image.JPG?raw=true" alt="logo" width="80%">
+    <img src="https://github.com/Jaypraveen/Eagle-eye-system_Final-Year-Research/blob/main/UI/Readme_Imgs/image.JPG?raw=true" alt="logo" width="70%">
  </p>
 
 
@@ -70,7 +70,7 @@ Abnormal Behavior Detection with threatening weapons feature as our second step 
 </p>
 
 <p align="center">
-    <img src="https://github.com/Jaypraveen/Eagle-eye-system_Final-Year-Research/blob/main/UI/Readme_Imgs/2.JPG?raw=true" alt="logo" width="80%">
+    <img src="https://github.com/Jaypraveen/Eagle-eye-system_Final-Year-Research/blob/main/UI/Readme_Imgs/2.JPG?raw=true" alt="logo" width="70%">
  </p>
  
 <p align="justify"> 
@@ -84,7 +84,7 @@ To implement these objectives, the system was developed with 3 main stages. Thes
 As a additional feature users are able to run abnormal behavior detection process separately as their need.
 
 <p align="center">
-    <img src="https://github.com/Jaypraveen/Eagle-eye-system_Final-Year-Research/blob/main/UI/Readme_Imgs/behavior.JPG?raw=true" alt="logo" width="80%">
+    <img src="https://github.com/Jaypraveen/Eagle-eye-system_Final-Year-Research/blob/main/UI/Readme_Imgs/behavior.JPG?raw=true" alt="logo" width="70%">
  </p>
 
 
@@ -95,7 +95,7 @@ Criminal’s Face Detection and Recognition feature as our third step of the sys
 </p>
 
 <p align="center">
-    <img src="https://github.com/Jaypraveen/Eagle-eye-system_Final-Year-Research/blob/main/UI/Readme_Imgs/3.JPG?raw=true" alt="logo" width="80%">
+    <img src="https://github.com/Jaypraveen/Eagle-eye-system_Final-Year-Research/blob/main/UI/Readme_Imgs/3.JPG?raw=true" alt="logo" width="70%">
  </p>
  
 <p align="justify"> 
@@ -105,7 +105,7 @@ In Face detection and recognition, the component gets the snapshots of the abnor
 As a additional feature users are able to run Face Detection and Recognition process separately as their need.
 
 <p align="center">
-    <img src="https://github.com/Jaypraveen/Eagle-eye-system_Final-Year-Research/blob/main/UI/Readme_Imgs/face.JPG?raw=true" alt="logo" width="80%">
+    <img src="https://github.com/Jaypraveen/Eagle-eye-system_Final-Year-Research/blob/main/UI/Readme_Imgs/face.JPG?raw=true" alt="logo" width="70%">
  </p>
  
  
@@ -116,7 +116,7 @@ Suspect identification with Figure Recognition feature as our final step of the 
 </p>
 
 <p align="center">
-    <img src="https://github.com/Jaypraveen/Eagle-eye-system_Final-Year-Research/blob/main/UI/Readme_Imgs/4.JPG?raw=true" alt="logo" width="80%">
+    <img src="https://github.com/Jaypraveen/Eagle-eye-system_Final-Year-Research/blob/main/UI/Readme_Imgs/4.JPG?raw=true" alt="logo" width="70%">
  </p>
 
 <p align="justify"> 
@@ -126,28 +126,28 @@ In the Figure recognition component, there are 3 stages. They are the recognitio
 As a additional feature users are able to run the Figure Recognition process separately as their need.
 
 <p align="center">
-    <img src="https://github.com/Jaypraveen/Eagle-eye-system_Final-Year-Research/blob/main/UI/Readme_Imgs/figure.JPG?raw=true" alt="logo" width="80%">
+    <img src="https://github.com/Jaypraveen/Eagle-eye-system_Final-Year-Research/blob/main/UI/Readme_Imgs/figure.JPG?raw=true" alt="logo" width="70%">
  </p>
 
 
 **Technologies and Algorithms**
 
-YOLO version 4 Algorithm
-Mobile-net-SSD Algorithm
-Deep Neural Network (DNN)
-Haar-Cascade Algorithm
-Local Binary Pattern Histogram (LBPH) 
-Convolutional Neural Network (CNN)
-Python
-Electron JS
-Image Processing
-Deep learning 
-Machine learning
-Open CV
-Dlib
-NCIS
-Caffe Framework
-YOLO Darknet Framework
+- [x] YOLO version 4 Algorithm
+- [x] Mobile-net-SSD Algorithm
+- [x] Deep Neural Network (DNN)
+- [x] Haar-Cascade Algorithm
+- [x] Local Binary Pattern Histogram (LBPH) 
+- [x] Convolutional Neural Network (CNN)
+- [x] Python
+- [x] Electron JS
+- [x] Image Processing
+- [x] Deep learning 
+- [x] Machine learning
+- [x] Open CV
+- [x] Dlib
+- [x] NCIS
+- [x] Caffe Framework
+- [x] YOLO Darknet Framework
 
 
 **Testings and Results**
@@ -161,18 +161,18 @@ As a final result, the system displays the details of the detected criminal’s 
 </p>
 
 <p align="center">
-    <img src="https://github.com/Jaypraveen/Eagle-eye-system_Final-Year-Research/blob/main/UI/Readme_Imgs/success.JPG?raw=true" alt="logo" width="80%">
+    <img src="https://github.com/Jaypraveen/Eagle-eye-system_Final-Year-Research/blob/main/UI/Readme_Imgs/success.JPG?raw=true" alt="logo" width="70%">
  </p>
  
  <p align="center">
-    <img src="https://github.com/Jaypraveen/Eagle-eye-system_Final-Year-Research/blob/main/UI/Readme_Imgs/Picture2.jpg?raw=true" alt="logo" width="80%">
+    <img src="https://github.com/Jaypraveen/Eagle-eye-system_Final-Year-Research/blob/main/UI/Readme_Imgs/Picture2.jpg?raw=true" alt="logo" width="70%">
  </p>
 
 
 Finally, I would like to thank all my team members who worked hard with dedication for nearly one year as a team to make this project a success.
 
 <p align="center">
-    <img src="https://github.com/Jaypraveen/Eagle-eye-system_Final-Year-Research/blob/main/UI/Readme_Imgs/Picture6.png?raw=true" alt="logo" width="80%">
+    <img src="https://github.com/Jaypraveen/Eagle-eye-system_Final-Year-Research/blob/main/UI/Readme_Imgs/Picture7.png?raw=true" alt="logo" width="70%">
  </p>
 
 
