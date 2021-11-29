@@ -13,6 +13,7 @@ It is with great pleasure I would like to mention that our team successfully com
 This system includes features such as Image Enhancement, Abnormal Behavior Detection, Face Detection and Recognition, Figure Recognition and this system is capable of analyzing the whole incident recorded in the CCTV footage/s and identifying the criminal’s face and the weapons used by the criminal accurately. These provide strong scientific evidence for the law enforcement authorities to bring them to the justice. Further, we believe that this system will help the authorities to clear the investigation cases not yet completed due to difficulties they undergo in detecting the real criminal from available CCTV footages.
 </p>
 
+
 **Main objective**
 
 <p align="justify"> 
@@ -24,9 +25,11 @@ This research study is designed to detect and identify criminals in less time wi
  </p>
 
 **Main Research questions**
+
 <p align="justify"> 
 Most of the time, the quality of the CCTV footage are low. Increasing the quality of the footage is important and Authorities don't know the exact time when the suspicious activities happen in CCTV footage. So, the concentration of authorities on each case simultaneously decreases gradually with time. Using manual methods for identifying the criminals' faces are time-consuming and costs higher labor and It can Misidentify persons who have identical faces/features and difficult to identify human age and gender with high variability in a movement such as walking, running, etc. To minimize the disadvantages explained above, a computerized identification system can be utilized. Currently, there is no such system in police and at CID of Sri Lanka.
 </p>
+
 
 **Use of System**
 
@@ -36,7 +39,9 @@ To run the main scan of the system, first users need to upload the CCTV footage 
     <img src="https://github.com/Jaypraveen/Eagle-eye-system_Final-Year-Research/blob/main/UI/Readme_Imgs/upload.JPG?raw=true" alt="logo" width="80%">
  </p>
 
+
 **Individual Objectives**
+
 
 **Component 1 - Image Enhancement  | Dewmal Fernando**
 <p align="justify"> 
@@ -56,6 +61,7 @@ As a additional feature users are able to run the image enhancement process sepa
 <p align="center">
     <img src="https://github.com/Jaypraveen/Eagle-eye-system_Final-Year-Research/blob/main/UI/Readme_Imgs/image.JPG?raw=true" alt="logo" width="80%">
  </p>
+
 
 **Component 2 - Abnormal Behavior Detection | Givindu Perera**
 
@@ -81,6 +87,7 @@ As a additional feature users are able to run abnormal behavior detection proces
     <img src="https://github.com/Jaypraveen/Eagle-eye-system_Final-Year-Research/blob/main/UI/Readme_Imgs/behavior.JPG?raw=true" alt="logo" width="80%">
  </p>
 
+
 **Component 3 - Criminal’s Face Detection and Recognition | Praveen Fernando**
 
 <p align="justify"> 
@@ -101,6 +108,7 @@ As a additional feature users are able to run Face Detection and Recognition pro
     <img src="https://github.com/Jaypraveen/Eagle-eye-system_Final-Year-Research/blob/main/UI/Readme_Imgs/face.JPG?raw=true" alt="logo" width="80%">
  </p>
  
+ 
 **Component 4 - Suspect identification with Figure Recognition | Kasun Gunatilleke**
 
 <p align="justify"> 
@@ -120,6 +128,7 @@ As a additional feature users are able to run the Figure Recognition process sep
 <p align="center">
     <img src="https://github.com/Jaypraveen/Eagle-eye-system_Final-Year-Research/blob/main/UI/Readme_Imgs/figure.JPG?raw=true" alt="logo" width="80%">
  </p>
+
 
 **Technologies and Algorithms**
 
@@ -159,10 +168,12 @@ As a final result, the system displays the details of the detected criminal’s 
     <img src="https://github.com/Jaypraveen/Eagle-eye-system_Final-Year-Research/blob/main/UI/Readme_Imgs/Picture2.jpg?raw=true" alt="logo" width="80%">
  </p>
 
+
 Finally, I would like to thank all my team members who worked hard with dedication for nearly one year as a team to make this project a success.
 
 <p align="center">
     <img src="https://github.com/Jaypraveen/Eagle-eye-system_Final-Year-Research/blob/main/UI/Readme_Imgs/Picture6.png?raw=true" alt="logo" width="80%">
  </p>
+
 
 **Visit Now** : https://eagleeyesystem.azurewebsites.net/ 
