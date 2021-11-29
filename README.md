@@ -7,35 +7,35 @@
  
 <p align="justify">
 Eagle Eye is a Desktop based application that allows authorities to register criminals to the system, to improve the quality of the footage, to detect the abnormal behaviors accompanied by threatening weapons, to identify & recognize the suspects using faces and their figures automatically with higher accuracy and less time.
-</p><br />
+</p>
 
 <p align="justify"> 
 It is with great pleasure I would like to mention that our team successfully completed the 4th year research project of SLIIT on criminal investigation and management utilizing CCTV footages named “Eagle Eye”. We believe that this system will immensely help the law enforcement authorities of our country to detect the criminal involved in a crime accurately and in a shorter time duration and help to ensure the law and justice to the victims, their families and to the society as well.
-</p><br />
+</p>
 
 <p align="justify">  
 This system includes features such as Image Enhancement, Abnormal Behavior Detection, Face Detection and Recognition, Figure Recognition and this system is capable of analyzing the whole incident recorded in the CCTV footage/s and identifying the criminal’s face and the weapons used by the criminal accurately. These provide strong scientific evidence for the law enforcement authorities to bring them to the justice. Further, we believe that this system will help the authorities to clear the investigation cases not yet completed due to difficulties they undergo in detecting the real criminal from available CCTV footages.
-</p><br />
+</p>
 
 
-**Main objective**
+**<h3>Main objective</h3>**
 
 <p align="justify"> 
 This research study is designed to detect and identify criminals in less time with high accuracy, better than the existing methods, using their faces, figures, and behaviors followed by the image enhancement process.
-</p><br />
+</p>
 
 <p align="center">
     <img src="https://github.com/Jaypraveen/Eagle-eye-system_Final-Year-Research/blob/main/UI/Readme_Imgs/Capture-copy.jpg" alt="logo" width="70%">
  </p>
 
-**Main Research questions**
+**<h3>Main Research questions</h3>**
 
 <p align="justify"> 
 Most of the time, the quality of the CCTV footage are low. Increasing the quality of the footage is important and Authorities don't know the exact time when the suspicious activities happen in CCTV footage. So, the concentration of authorities on each case simultaneously decreases gradually with time. Using manual methods for identifying the criminals' faces are time-consuming and costs higher labor and It can Misidentify persons who have identical faces/features and difficult to identify human age and gender with high variability in a movement such as walking, running, etc. To minimize the disadvantages explained above, a computerized identification system can be utilized. Currently, there is no such system in police and at CID of Sri Lanka.
 </p>
-<br />
 
-**Use of System**
+
+**<h3>Use of System</h3>**
 
 To run the main scan of the system, first users need to upload the CCTV footage into the system.
 
@@ -43,10 +43,10 @@ To run the main scan of the system, first users need to upload the CCTV footage 
     <img src="https://github.com/Jaypraveen/Eagle-eye-system_Final-Year-Research/blob/main/UI/Readme_Imgs/upload.JPG?raw=true" alt="logo" width="70%">
  </p>
 
-<br />
-**Individual Objectives**
 
-<br />
+**<h3>Individual Objectives</h3>**
+
+
 **Component 1 - Image Enhancement  | Dewmal Fernando**
 <p align="justify"> 
 The enhancement feature will be the first step of the system. We use images to capture suspected persons by using CCTV footage. Those images may not be fit for the upcoming processes to handle. It is necessary to have a good quality image to get an accurate result when the system detects faces, figures, and behaviors. We are hoping to increase the processing speed and increase the quality of the captured images by using our image enhancement method than other existing methods available in the industry.
@@ -66,7 +66,7 @@ As a additional feature users are able to run the image enhancement process sepa
     <img src="https://github.com/Jaypraveen/Eagle-eye-system_Final-Year-Research/blob/main/UI/Readme_Imgs/image.JPG?raw=true" alt="logo" width="70%">
  </p>
 
-<br />
+
 **Component 2 - Abnormal Behavior Detection | Givindu Perera**
 
 <p align="justify"> 
@@ -91,7 +91,7 @@ As a additional feature users are able to run abnormal behavior detection proces
     <img src="https://github.com/Jaypraveen/Eagle-eye-system_Final-Year-Research/blob/main/UI/Readme_Imgs/behavior.JPG?raw=true" alt="logo" width="70%">
  </p>
 
-<br />
+
 **Component 3 - Criminal’s Face Detection and Recognition | Praveen Fernando**
 
 <p align="justify"> 
@@ -112,7 +112,7 @@ As a additional feature users are able to run Face Detection and Recognition pro
     <img src="https://github.com/Jaypraveen/Eagle-eye-system_Final-Year-Research/blob/main/UI/Readme_Imgs/face.JPG?raw=true" alt="logo" width="70%">
  </p>
  
- <br />
+
 **Component 4 - Suspect identification with Figure Recognition | Kasun Gunatilleke**
 
 <p align="justify"> 
@@ -133,7 +133,7 @@ As a additional feature users are able to run the Figure Recognition process sep
     <img src="https://github.com/Jaypraveen/Eagle-eye-system_Final-Year-Research/blob/main/UI/Readme_Imgs/figure.JPG?raw=true" alt="logo" width="70%">
  </p>
 
-<br />
+
 **Technologies and Algorithms**
 
 - [x] YOLO version 4 Algorithm
@@ -153,7 +153,7 @@ As a additional feature users are able to run the Figure Recognition process sep
 - [x] Caffe Framework
 - [x] YOLO Darknet Framework
 
-<br />
+
 **Testings and Results**
 
 <p align="justify"> 
@@ -179,5 +179,5 @@ Finally, I would like to thank all my team members who worked hard with dedicati
     <img src="https://github.com/Jaypraveen/Eagle-eye-system_Final-Year-Research/blob/main/UI/Readme_Imgs/Picture7.png?raw=true" alt="logo" width="70%">
  </p>
 
-<br />
+
 **Visit Now** : https://eagleeyesystem.azurewebsites.net/ 
