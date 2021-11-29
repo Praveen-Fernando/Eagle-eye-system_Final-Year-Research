@@ -1,0 +1,1 @@
+median = cv2.medianBlur(img,5)

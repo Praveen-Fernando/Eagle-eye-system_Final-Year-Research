@@ -1,0 +1,1 @@
+blur = cv2.bilateralFilter(img,9,75,75)

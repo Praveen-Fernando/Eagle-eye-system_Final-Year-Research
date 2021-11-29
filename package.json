@@ -1,0 +1,37 @@
+{
+  "name": "criminal_investigation",
+  "version": "1.0.0",
+  "description": "Criminal Investigation Management System",
+  "main": "main.js",
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "http://gitlab.sliit.lk/2021-208/2021-208.git"
+  },
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "dependencies": {
+    "electron": "^13.1.7",
+    "electron-packager": "^15.4.0",
+    "electron-reload": "^2.0.0-alpha.1",
+    "noty": "^3.2.0-beta-deprecated"
+  },
+  "devDependencies": {
+    "electron-builder": "^22.13.1"
+  },
+  "build": {
+    "appId": "com.eagaleye.app",
+    "productName": "Eagal Eye",
+    "target": "NSIS",
+    "directory": {
+      "output": "build"
+    },
+    "nsis": {
+      "allowToChangeInstallationDirectory": true,
+      "oneClick": false
+    }
+  }
+}

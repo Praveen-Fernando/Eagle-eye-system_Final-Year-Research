@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <title>Criminal Investigation & Management System</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico"/>
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+          rel="stylesheet"/>
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    <link href="css/result_styles.css" rel="stylesheet"/>
+    <link href="css/result.css" rel="stylesheet"/>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+
+<body id="page-top">
+
+<header class="masthead">
+    <div class="container">
+        <div>
+            <div class="text-center" style="position: relative; top: 62px; right: 10px;">
+                <span><img src="./assets/a2.png" alt="Girl in a jacket" width="18" height="26"
+                           style="position: relative; right: 622px; top: -22px; opacity:100%;"></span>
+                <a href="./home.html"><h5 class="text-white-75 mx-auto mt-2 mb-5"
+                                          style="position: absolute; color:white; opacity:75%; top: -29px;left: -46px; font-weight: 100;">
+                    back</h5></a>
+            </div>
+            <h1 class="mx-auto my-0 text-uppercase" style="text-align: center;">Results</h1>
+            <p style="text-align: center; color: white; font-size: 20px;">Scanned crime incident details</p>
+
+            <button class="btn btn-primary" id="result" hidden>View Result</button>
+
+            <div id="imageView" style="">
+
+            </div>
+
+            <div id="dataSection">
+
+            </div>
+        </div>
+    </div>
+
+
+    <a type="button" class="btn btn-secondary btn-lg btn-block" onclick="window.print();" target="_blank"
+       style="cursor:pointer; width: 15%; margin-top: 30px; padding: 20px; align-content: center;  position: absolute; left: 50%;  transform: translate(-50%, -50%); background-color: #301186;">Print
+        Screen</a>
+</header>
+
+<script>
+    $(document).ready(function(){
+        $("#result").click();
+    });
+</script>
+
+<script src="./app.js"></script>
+</body>
+</html>

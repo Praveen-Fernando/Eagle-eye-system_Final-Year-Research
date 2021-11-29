@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <title>Criminal Investigation & Management System</title>
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico"/>
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+          rel="stylesheet"/>
+    <link href="./css/styles.css" rel="stylesheet"/>
+    <link href="./css/criminalReg_css.css" rel="stylesheet"/>
+    <link href="./css/sweetalert2.css" rel="stylesheet"/>
+
+</head>
+
+<body id="page-top">
+
+<header class="masthead">
+    <div class="container">
+        <div>
+            <div class="text-center" style="position: relative; top: 62px; right: 10px;">
+                <span><img src="./assets/a2.png" alt="Girl in a jacket" width="18" height="26"
+                           style="position: relative; right: 622px; top: -22px; opacity:100%;"></span>
+                <a href="./home.html"><h5 class="text-white-75 mx-auto mt-2 mb-5"
+                                          style="position: absolute; color:white; opacity:75%; top: -29px;left: -46px; font-weight: 100;">
+                    back</h5></a>
+            </div>
+            <h1 class="mx-auto my-0 text-uppercase" style="text-align: center;">CRIMINAL REGISTRATION</h1>
+
+            <form id="myform">
+                <div class="container">
+                    <div class="row">
+                        <div class="col" style="padding-left: 100px;}">
+                            <div class="form-input" style="margin-bottom: 8px;">
+                                <label class="required">Full name</label><br>
+                                <input class="input_f" type="text" name="first_name" id="Name"
+                                        required/>
+                            </div>
+                            <div class="form-input" style="margin-bottom: 8px;">
+                                <label for="age" class="required">Age</label><br>
+                                <input class="input_f" type="text" name="first_name" id="Age" maxlength="3"
+                                       onkeypress="return isNumber(event)" required/>
+                            </div>
+                            <div class="select-list" style="margin-bottom: 8px;">
+                                <label for="gender" class="required">Gender</label><br>
+                                <select class="dropdown_s" name="gender_type" id="Gender" required>
+                                    <option value="">---Select---</option>
+                                    <option value="Male">Male</option>
+                                    <option value="Female">Female</option>
+                                </select>
+                            </div>
+                            <div class="select-list" style="margin-bottom: 8px;">
+                                <label for="dob" class="required">Date of Birth</label><br>
+                                <input class="input_f" type="date" id="DOB" name="dob" required>
+                            </div>
+                            <div class="form-input" style="margin-bottom: 8px;">
+                                <label for="address" class="required">Address</label><br>
+                                <input class="input_f" class="input_f" type="text" name="address" id="Address"
+                                       required/>
+                            </div>
+                            <div class="select-list" style="margin-bottom: 8px;">
+                                <label class="required">Blood Group</label><br>
+                                <select class="dropdown_s" name="blood_type" id="Blood_Group" required>
+                                    <option value="">---Select---</option>
+                                    <option value="A+">A +</option>
+                                    <option value="A-">A -</option>
+                                    <option value="B+">B +</option>
+                                    <option value="B-">B -</option>
+                                    <option value="O+">O +</option>
+                                    <option value="0-">O -</option>
+                                    <option value="AB+">AB +</option>
+                                    <option value="AB-">AB -</option>
+                                </select>
+                            </div>
+                            <div class="form-input" style="margin-bottom: 8px;">
+                                <label for="nic" class="required">NIC</label><br>
+                                <input class="input_f" type="text" name="nic" maxlength="9" id="NIC"
+                                       onkeypress="return isNumber(event)" required/>
+                            </div>
+                            <div class="form-input" style="margin-bottom: 8px;">
+                                <label for="height" class="required">Height</label><br>
+                                <input class="input_f" type="text" name="height" maxlength="3" id="Height"
+                                       onkeypress="return isNumber(event)" required/>
+                            </div>
+                            <div class="select-list" style="margin-bottom: 8px;">
+                                <label class="required">Crime</label><br>
+                                <select class="dropdown_s" name="crime" id="Crimes" required>
+                                    <option value="">---Select---</option>
+                                    <option value="Murder">Murder</option>
+                                    <option value="Robber">Robber</option>
+                                    <option value="Kidnapper">Kidnapper</option>
+                                    <option value="Aggravated Assault">Aggravated Assault</option>
+                                    <option value="Weapon Dealer">Weapon Dealer</option>
+                                    <option value="Drug Dealer">Drug Dealer</option>
+                                    <option value="Serial Killer">Serial Killer</option>
+                                    <option value="Motor Vehicle theft">Motor Vehicle theft</option>
+                                </select>
+                            </div>
+
+                            <div class="form-submit" style="margin-left: -13px; margin-top: 1%;">
+                                <div class="row">
+                                    <div class="col" style="border: 10px solid transparent;">
+                                        <input type="file" id="fileinput" multiple required/>
+                                    </div>
+                                    <div class="col" style="margin-top: 10px;">
+                                        <button class="button" type="submit" id="submit-button">Register</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col" style="color: white;">
+                            <div class="image-preview" id="preview" style="margin-top: 35px;">
+                                <img src="" alt="Image Preview" class="image-preview__image">
+                                <span class="image-preview__default-text">Image Preview</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</header>
+
+<script src="./js/app_criminalReg.js"></script>
+
+</body>
+<script type="text/javascript" src="./js/jquery-3.3.1.js"></script>
+<script type="text/javascript" src="./js/sweetalert2.min.js"></script>
+<script type="text/javascript" src="./js/app_criminalReg.js"></script>
+<script type="text/javascript" src="./js/criminalReg_validations.js"></script>
+</html>

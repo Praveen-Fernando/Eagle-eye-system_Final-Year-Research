@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #08081e;
+
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+}
+
+.loading div {
+    width: 1rem;
+    height: 1rem;
+    margin: 2rem 0.3rem;
+    background: #979fd0;
+    border-radius: 100%;
+    animation: 0.9s bounce infinite alternate;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 450%;
+}
+
+.loading div:nth-child(2) {
+    animation-delay: 0.3s;
+}
+
+.loading div:nth-child(3) {
+    animation-delay: 0.6s;
+}
+
+@keyframes bounce {
+    to {
+        opacity: 0.3;
+        transform: translate3d(0, -1rem, 0);
+    }
+}
+
+@keyframes fancy {
+    to {
+        transform: rotate(360deg) scale(0.5);
+    }
+}
+ 

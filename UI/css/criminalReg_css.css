@@ -1,0 +1,91 @@
+.heading {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 26px;
+    color: white;
+}
+
+.input_f {
+    width: 50%;
+    padding-bottom: 4px;
+    border-radius: 3px;
+
+}
+
+.dropdown_s {
+    width: 50%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 3px;
+}
+
+.container {
+    margin: auto;
+}
+
+body {
+    background-image: url('./UI/assets/mask2.png');
+    height: 100%;
+    font-family: 'Helvetica', 'Arial', 'sans-serif';
+    color: #444444;
+    font-size: 11pt;
+    background-color: #FAFAFA;
+}
+
+.required {
+    color: white;
+    font-weight: 600;
+}
+
+.button {
+    text-align: center;
+}
+
+#fileinput {
+    padding: 7px;
+    color: white;
+    background-color: #169D18;
+    border: 1px solid #000;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 102px;
+    width: 143pt;
+}
+
+.image-preview {
+    width: 503px;
+    min-height: 500px;
+    border: 2px solid #dddddd;
+    margin-top: 15px;
+
+    /*Default text*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #cccccc;
+}
+
+.image-preview__image {
+    display: none;
+    width: 100%;
+}
+
+#fileinput:hover {
+    background-color: #0E530F;
+}
+
+#submit-button {
+    padding: 10px;
+    color: white;
+    background-color: #169D18;
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: -113px;
+}
+
+#submit-button:hover {
+    background-color: #0E530F;
+}
+

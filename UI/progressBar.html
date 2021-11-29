@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Criminal Investigation & Management System</title>
+  <link rel="stylesheet" href="../../../%23Downloads/progress%20bar/css/progressBar.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>Step progress Bar</h1>
+  <div class="progress-container">
+    <div class="progress" id="progress"></div>
+    <div class="circle active"><i class="fab fa-html5"></i></div>
+    <div class="circle active"><i class="fab fa-css3-alt"></i></div>
+    <div class="circle active"><i class="fab fa-js"></i></div>
+    <div class="circle active"><i class="fab fa-react"></i></div>
+  </div>
+
+  <button class="btn" id="prev" disabled>Prev</button>
+  <button class="btn" id="next">Next</button>
+</div>  
+
+<script src="../../../%23Downloads/progress%20bar/js/progressBar.js"></script>
+
+<!--<script>-->
+
+<!--  var list = ['Image Enhancement Is Executed Successfully', 'Abnormal Behaviour Detection Is Executed Successfully', 'Face Detection Is Executed Successfully', 'Figure Recognition Is Executed Successfully']-->
+<!--  var count = 0;-->
+
+<!--  function DisplayNotification(){-->
+
+<!--    console.log(list[count]);-->
+<!--    console.log(count);-->
+
+<!--  var notification = new Noty({-->
+<!--    text: list[count],-->
+
+<!--    animation: {-->
+<!--        open: function (promise) {-->
+<!--            var n = this;-->
+<!--            var Timeline = new mojs.Timeline();-->
+<!--            var body = new mojs.Html({-->
+<!--                el        : n.barDom,-->
+<!--                x         : {500: 0, delay: 0, duration: 500, easing: 'elastic.out'},-->
+<!--                isForce3d : true,-->
+<!--                onComplete: function () {-->
+<!--                    promise(function(resolve) {-->
+<!--                        resolve();-->
+<!--                    })-->
+<!--                }-->
+<!--            });-->
+
+<!--            var parent = new mojs.Shape({-->
+<!--                parent: n.barDom,-->
+<!--                width      : 200,-->
+<!--                height     : n.barDom.getBoundingClientRect().height,-->
+<!--                radius     : 0,-->
+<!--                x          : {[150]: -150},-->
+<!--                duration   : 1.2 * 500,-->
+<!--                isShowStart: true-->
+<!--            });-->
+
+<!--            n.barDom.style['overflow'] = 'visible';-->
+<!--            parent.el.style['overflow'] = 'hidden';-->
+
+<!--            var burst = new mojs.Burst({-->
+<!--                parent  : parent.el,-->
+<!--                count   : 10,-->
+<!--                top     : n.barDom.getBoundingClientRect().height + 75,-->
+<!--                degree  : 90,-->
+<!--                radius  : 75,-->
+<!--                angle   : {[-90]: 40},-->
+<!--                children: {-->
+<!--                    fill     : '#EBD761',-->
+<!--                    delay    : 'stagger(500, -50)',-->
+<!--                    radius   : 'rand(8, 25)',-->
+<!--                    direction: -1,-->
+<!--                    isSwirl  : true-->
+<!--                }-->
+<!--            });-->
+
+<!--            var fadeBurst = new mojs.Burst({-->
+<!--                parent  : parent.el,-->
+<!--                count   : 2,-->
+<!--                degree  : 0,-->
+<!--                angle   : 75,-->
+<!--                radius  : {0: 100},-->
+<!--                top     : '90%',-->
+<!--                children: {-->
+<!--                    fill     : '#EBD761',-->
+<!--                    pathScale: [.65, 1],-->
+<!--                    radius   : 'rand(12, 15)',-->
+<!--                    direction: [-1, 1],-->
+<!--                    delay    : .8 * 500,-->
+<!--                    isSwirl  : true-->
+<!--                }-->
+<!--            });-->
+
+<!--            Timeline.add(body, burst, fadeBurst, parent);-->
+<!--            Timeline.play();-->
+<!--        },-->
+<!--        close: function (promise) {-->
+<!--            var n = this;-->
+<!--            new mojs.Html({-->
+<!--                el        : n.barDom,-->
+<!--                x         : {0: 500, delay: 10, duration: 500, easing: 'cubic.out'},-->
+<!--                skewY     : {0: 10, delay: 10, duration: 500, easing: 'cubic.out'},-->
+<!--                isForce3d : true,-->
+<!--                onComplete: function () {-->
+<!--                    promise(function(resolve) {-->
+<!--                        resolve();-->
+<!--                    })-->
+<!--                }-->
+<!--            }).play();-->
+<!--        }-->
+<!--    }-->
+<!--}).show();-->
+
+<!--  count = count + 1;-->
+<!--  }-->
+<!--</script>-->
+
+</body>
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Criminal Investigation & Management System</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"/>
+<link rel="stylesheet" href="css/progress_Bar.css">
+<link href="css/progress_styles.css" rel="stylesheet"/>
+<link href="css/popUpIcon.css" rel="stylesheet"/>
+<link href="css/alert.css" rel="stylesheet"/>
+
+<!--    <link href="css/result_styles.css" rel="stylesheet"/>-->
+<!--    <link href="css/result.css" rel="stylesheet"/>-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<style>
+    body,
+    h1 {
+        font-family: "Raleway", sans-serif
+    }
+
+    body,
+    html {
+        height: 100%
+    }
+</style>
+
+<body id="page-top">
+<div class="alert hide">
+         <span class="fas fa-exclamation-circle"></span>
+         <span class="msg"></span>
+         <div class="close-btn">
+            <span class="fas fa-times"></span>
+         </div>
+      </div>
+<header class="masthead">
+    <div class="container">
+        <div>
+            <div class="text-center" style="position: relative; top: 62px; right: 10px;">
+                    <span><img src="./assets/a2.png" alt="Girl in a jacket" width="18" height="26"
+                               style="position: relative; right: 622px; top: -22px; opacity:100%;"></span>
+                <a href="./home.html"><h5 class="text-white-75 mx-auto mt-2 mb-5"
+                                          style="position: absolute; color:white; opacity:75%; top: -29px;left: -46px; font-weight: 100;">
+                    back</h5></a>
+            </div>
+            <h1 style="text-align: center; color: white; font-size: 40px; margin-top: 5%;" id="head1">Let's Detect & Identify
+                Criminals</h1>
+
+            <br>
+
+            <h4 style="text-align: center; color: white;font-size: 20px" id="head2">Detect & Identify Criminals By
+                Adding Your CCTV Footage</h4>
+
+            <br><br>
+
+
+            <div><img id="logopic" src="./assets/about/MicrosoftTeams-image3.png" alt="Trulli" width="400" height="280">
+            </div>
+
+
+            <div class="container" id="progressBarSection">
+                <div class="progress-container">
+                    <div class="progress" id="progress"></div>
+                    <div class="circle active"><img src="./assets/icons/convert.png" alt="Italian Trulli" width="50"
+                                                    height="50"></div>
+                    <div class="circle active"><img src="./assets/icons/murder.png" alt="Italian Trulli" width="50"
+                                                    height="50"></div>
+                    <div class="circle active"><img src="./assets/icons/face.png" alt="Italian Trulli" width="50"
+                                                    height="50"></div>
+                    <div class="circle active"><img src="./assets/icons/scan.png" alt="Italian Trulli" width="50"
+                                                    height="50"></div>
+                    <div class="circle active"><img src="./assets/icons/success.png" alt="Italian Trulli" width="50"
+                                                    height="50"></div>
+                </div>
+
+                <div id="headingSection">
+                    <h4 style="text-align: center; color: white;font-size: 30px" id="function1" class="mx-auto my-0 text-uppercase">Image Enhancement</h4>
+                </div>
+
+                <br><br><br><br>
+
+                <div id="iconSection">
+                    <img src="./assets/ImageEnhancement.png" style="height: 200px;width: 200px;"/>
+                </div>
+
+                <br><br>
+
+                <input type="hidden" id="hiddenNext" value="1"/>
+                <div id="buttonsSection">
+                    <button class="btn btn-primary" id="prev" disabled>Prev</button>
+                    <button class="btn btn-primary" id="next1" onclick="btnClick()">Next</button>
+                </div>
+            </div>
+            <form>
+                <div style="text-align: center;">
+                    <input type="file" id="upload" hidden/>
+                    <label class="btn btn-primary" for="upload" id="choosebtn">Choose file</label>
+                    <button class="btn btn-primary" id="mainSubmitBtn" onclick="submitForm()">Submit</button>
+                </div>
+            </form>
+        </div>
+        </div>
+</header>
+</body>
+
+<script src="js/progressBar.js"></script>
+
+<script src="./app.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('#progressBarSection').hide();
+    })
+
+    function submitForm() {
+
+        if ($('#upload').val() != '') {
+            $('#progressBarSection').show();
+            $('#head1').hide();
+            $('#head2').hide();
+            $('#choosebtn').hide();
+            $('#logopic').hide();
+            $('#mainSubmitBtn').hide();
+            $('#prev').hide();
+        }
+    }
+
+
+
+</script>
+</html>
