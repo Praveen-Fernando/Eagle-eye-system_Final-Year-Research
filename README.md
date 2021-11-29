@@ -47,7 +47,6 @@ To run the main scan of the system, first users need to upload the CCTV footage 
 &nbsp;
 **<h3>Individual Objectives</h3>**
 
-
 **Component 1 - Image Enhancement  | Dewmal Fernando**
 <p align="justify"> 
 The enhancement feature will be the first step of the system. We use images to capture suspected persons by using CCTV footage. Those images may not be fit for the upcoming processes to handle. It is necessary to have a good quality image to get an accurate result when the system detects faces, figures, and behaviors. We are hoping to increase the processing speed and increase the quality of the captured images by using our image enhancement method than other existing methods available in the industry.
@@ -68,7 +67,7 @@ As a additional feature users are able to run the image enhancement process sepa
  </p>
 
 &nbsp;
-**Component 2 - Abnormal Behavior Detection | Givindu Perera**
+**<h4>Component 2 - Abnormal Behavior Detection | Givindu Perera</h4>**
 
 <p align="justify"> 
 Abnormal Behavior Detection with threatening weapons feature as our second step of the system, We concentrated on two specific tasks: automatic detection and identification of dangerous behaviors in public and restricted locations. Our proposed algorithms can identify suspicious behavior accompanied by threatening weapons that persons are carrying, such as guns or knives (the most often used weapons in attacks) held in a person's hand.
@@ -93,7 +92,7 @@ As a additional feature users are able to run abnormal behavior detection proces
  </p>
 
 &nbsp;
-**Component 3 - Criminal’s Face Detection and Recognition | Praveen Fernando**
+**<h4>Component 3 - Criminal’s Face Detection and Recognition | Praveen Fernando</h4>**
 
 <p align="justify"> 
 Criminal’s Face Detection and Recognition feature as our third step of the system, we focused and target to capture the suspect’s face efficiently from CCTV footage and compare it with the system’s database that contains a registered Criminals faces using image processing and facial landmarking algorithms, which helps to capture suspect’s face and matching the Criminals faces with the facial measurements of the detected face in the database.
@@ -114,7 +113,7 @@ As a additional feature users are able to run Face Detection and Recognition pro
  </p>
  
 &nbsp;
-**Component 4 - Suspect identification with Figure Recognition | Kasun Gunatilleke**
+**<h4>Component 4 - Suspect identification with Figure Recognition | Kasun Gunatilleke</h4>**
 
 <p align="justify"> 
 Suspect identification with Figure Recognition feature as our final step of the system, our target is to capture the suspect person’s figure from the CCTV footage and recognize the person’s body measurements such as body Height, Gender, Age and compares those details with the system database and identify the suspect with matching characteristics using machine learning and image processing algorithms.
