@@ -179,6 +179,5 @@ Finally, I would like to thank all my team members who worked hard with dedicati
 <p align="center">
     <img src="https://github.com/Jaypraveen/Eagle-eye-system_Final-Year-Research/blob/main/UI/Readme_Imgs/Picture7.png?raw=true" alt="logo" width="70%">
  </p>
-
 &nbsp;
 **Visit Now** : https://eagleeyesystem.azurewebsites.net/ 
